@@ -11,7 +11,8 @@ const faHomePageData = {
   name: "Yajie Zhou",
   jobTitle: "外科学硕士",
   home_title: "关于我",
-  home_content: <div class="about-section">
+  home_content: `
+  <div class="about-section">
     <p class="lead">我是南昌大学外科学在读硕士研究生，主要研究方向为临床研究与循证医学。目前关注外科疗效评估、围术期管理及基于数据的临床决策。</p>
     <p>我热衷于将临床问题转化为研究课题，通过严谨的科学方法提升患者诊疗质量。临床之外，我喜欢阅读外科文献、向经验丰富的老师学习，并不断精进自己的临床技能。</p>
   </div>
@@ -39,11 +40,11 @@ const faHomePageData = {
     <span class="badge">临床研究</span>
     <span class="badge">团队协作</span>
   </div>
-`,
+  `,
+};
 
 const faPublicationsPageData = {
   type_one_title: "已发表论文",
-
   type_one_items: [
     {
       title: `（待填写你的论文标题）`,
@@ -54,13 +55,10 @@ const faPublicationsPageData = {
       writers: ["周雅洁"],
     },
   ],
-
   type_two_title: "在审论文",
   type_two_items: [],
-
   type_three_title: "书籍章节",
   type_three_items: [],
-
   type_four_title: "",
   type_four_items: [],
 };
@@ -84,7 +82,7 @@ const faJobsPageData = {
   title: "临床与科研经历",
   items: [
     {
-      title: `临床实习医师`,
+      title: "临床实习医师",
       company: "南昌大学第一附属医院",
       startData: "2023年",
       endDate: "2024年",
@@ -93,7 +91,7 @@ const faJobsPageData = {
       achievements: ["参与手术辅助50+台", "独立完成病历书写100+份", "参与科室病例讨论会"],
     },
     {
-      title: `研究助理`,
+      title: "研究助理",
       company: "南昌大学外科实验室",
       startData: "2024年",
       endDate: "至今",
