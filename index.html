@@ -1,5 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN" dir="ltr">
+  <style>
+  /* 强制所有元素从左向右 */
+  * {
+    direction: ltr !important;
+    unicode-bidi: normal !important;
+  }
+  body, .container, .main_header_content, .work-item, .about-section {
+    direction: ltr !important;
+    text-align: left !important;
+  }
+  /* 修复数字显示 */
+  .work-item p, .lead, .skills-box {
+    font-variant-numeric: lining-nums;
+    font-feature-settings: "lnum";
+  }
+</style>
   <style>
   .work-item {
     background: #f8f9fa;
