@@ -29,11 +29,6 @@ const enHomePageData = {
     <p>Led a 5-member student team in a perioperative complication study, coordinating task allocation, progress tracking, and manuscript drafting.</p>
   </div>
 
-  <div class="work-item">
-    <h3>🌐 Academic Portfolio Website</h3>
-    <p>Independently built and maintained this website using GitHub Pages.</p>
-  </div>
-
   <div class="skills-box mt-3">
     <strong>Core Skills:</strong>
     <span class="badge">R Data Analysis</span>
