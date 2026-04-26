@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-  <style>
+ <!DOCTYPE html>
+<html lang="en">
+<style>
   /* 强制所有元素从左向右 */
   * {
     direction: ltr !important;
@@ -15,6 +17,23 @@
     font-variant-numeric: lining-nums;
     font-feature-settings: "lnum";
   }
+  /* 隐藏语言切换按钮（FA/EN） */
+  .language_wrapper,
+  #language,
+  [onclick*="languageHandler"] {
+    display: none !important;
+  }
+</style>
+<style>
+  .work-item {
+    background: #f8f9fa;
+    padding: 1rem 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 12px;
+    border-left: 4px solid #2c7da0;
+    transition: all 0.2s ease;
+  }
+  /* ... 其余样式保持不变 ... */
 </style>
   <style>
   .work-item {
