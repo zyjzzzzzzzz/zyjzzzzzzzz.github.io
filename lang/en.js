@@ -11,7 +11,7 @@ const enHomePageData = {
   name: "Yajie Zhou",
   jobTitle: "Master of Surgery",
   home_title: "About Me",
-  home_content: `<p>I am a master's student in Surgery at Nanchang University, with a strong interest in clinical research and evidence-based medicine. My current work focuses on surgical outcomes, perioperative management, and data-driven clinical decision-making.</p>
+  home_content: `<p>I am a master student in Surgery at Nanchang University, with a strong interest in clinical research and evidence-based medicine. My current work focuses on surgical outcomes, perioperative management, and data-driven clinical decision-making.</p>
     <h2 class='title'>Main Works</h2>
     <p><strong>1. Clinical Data Analysis Using R Language</strong><br>
     Cleaned and analyzed surgical patient data (1,500+ cases) using R, covering preoperative indicators, intraoperative variables, and postoperative outcomes. Built reproducible data pipelines for the research team, reducing processing time by ~40%.</p>
