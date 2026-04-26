@@ -1,23 +1,32 @@
 const faNavbarData = {
   title: "周雅洁",
-  Home: "中国南昌",
-  publications: "很多很多",
-  Research: "肿瘤免疫；肿瘤微环境",
-  Jobs: "外科学硕",
-  Contact: " 330001",
+  Home: "home",
+  publications: "publications",
+  Research: "Research",
+  Jobs: "Jobs",
+  Contact: "Contact",
 };
 
 const faHomePageData = {
   name: "Yajie Zhou",
-  jobTitle: "Master",
-  home_title: "Nanchang, China",
-  home_content: ` <p> Nanchang City </p>
-    <h2 class='title'> کارهای من </h2>
-    <p> Jiangxi province. </p>
+  jobTitle: "Master of surgery",
+  home_title: "About me",
+  home_content: ` <p> I am a master's student in Surgery at Nanchang University, with a strong interest in clinical research and evidence-based medicine. My current work focuses on surgical outcomes, perioperative management, and data-driven clinical decision-making. I am passionate about translating clinical questions into research projects and improving patient care through rigorous scientific inquiry. Outside the hospital, I enjoy reading surgical literature, learning from experienced mentors, and continuously improving my clinical skills. </p>
+    <h2 class='title'> Main works </h2>
+    <p> title: "Clinical Data Analysis Using R Language",
+        description: "Cleaned and analyzed surgical patient data (1,500+ cases) using R, covering preoperative indicators, intraoperative variables, and postoperative outcomes. Built reproducible data pipelines for the research team, reducing processing time by ~40%."
+    },
+    {
+        title: "Team Leadership in Clinical Research",
+        description: "Led a 5-member student team in a perioperative complication study, coordinating task allocation, progress tracking, and manuscript drafting. Organized weekly journal clubs and data review meetings to improve collaboration and efficiency."
+    },
+    {
+        title: "Academic Portfolio Website",
+        description: "Independently built and maintained this academic website using GitHub Pages, documenting research progress and sharing clinical resources with team members." </p>
     <ul>
-      <li> عنوان تستی </li>
-      <li>  عنوان تستی  2  </li>
-      <li> عنوان تستی 3  </li>
+      <li> Data analysis </li>
+      <li>  research  </li>
+      <li> life </li>
     </ul>
   `,
 };
