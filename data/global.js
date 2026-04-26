@@ -7,12 +7,12 @@ const navbarLinks = {
 };
 
 const globalData = {
-  // 语言设置：用 "cn" 显示中文，"en" 显示英文
-  language: "cn",
+  language: "en",
+  dir: "ltr",
   
   image: "./files/profile.jpg",
   resume: "./files/resume.pdf",
-  address: "Nanchang, China",
+  address: "江西南昌",
   phone: "+86 15070448747",
   email: "zzz22222200@hotmail.com",
   
