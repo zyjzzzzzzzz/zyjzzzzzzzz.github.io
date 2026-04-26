@@ -7,22 +7,25 @@ const navbarLinks = {
 };
 
 const globalData = {
-  image: "../files/profile.jpg",
-  resume: "../files/resume.pdf",
-  enAddress: "Nanchang, China ",
-  faAddress: " آدرس شما ",
+  // 语言设置：用 "cn" 显示中文，"en" 显示英文
+  language: "cn",
+  
+  image: "./files/profile.jpg",
+  resume: "./files/resume.pdf",
+  address: "Nanchang, China",
   phone: "+86 15070448747",
-  email: "zzz22222200@hotmail",
+  email: "zzz22222200@hotmail.com",
+  
   twitterTitle: "",
   twitter: "",
-  whatsappTitle: "WhatsApp number",
-  whatsapp: "https://api.whatsapp.com/send?phone=your_number",
-  googleScholarTitle: "Google Scholar title",
-  googleScholar: "@googleScholar",
-  linkedinTitle: "Linkedin Username",
-  linkedin: "https://www.linkedin.com/in/your_username/",
-  githubTitle: "Github Username",
-  github: "https://zyjzzzzzzzz.github.io",
-  orcidTitle: "Orcid Username",
-  orcid: "https://orcid.com/your_username",
+  whatsappTitle: "WhatsApp",
+  whatsapp: "https://api.whatsapp.com/send?phone=8615070448747",
+  googleScholarTitle: "Google Scholar",
+  googleScholar: "",
+  linkedinTitle: "LinkedIn",
+  linkedin: "",
+  githubTitle: "GitHub",
+  github: "https://github.com/zyjzzzzzzz",
+  orcidTitle: "ORCID",
+  orcid: "",
 };
