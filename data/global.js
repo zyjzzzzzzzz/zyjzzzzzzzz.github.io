@@ -7,12 +7,12 @@ const navbarLinks = {
 };
 
 const globalData = {
-  language: "en",
+  language: "en",        // 默认显示英文（en.js）
   dir: "ltr",
   
   image: "./files/profile.jpg",
   resume: "./files/resume.pdf",
-  address: "江西南昌",
+  address: "Nanchang, China",
   phone: "+86 15070448747",
   email: "zzz22222200@hotmail.com",
   
