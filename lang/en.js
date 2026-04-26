@@ -1,40 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="./assets/images/icons/favicon.png"
-    />
-    <link href="./assets/css/bootstrap.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/aos.css" type="text/css" rel="stylesheet" />
-    <link href="./assets/css/style.css" type="text/css" rel="stylesheet" />
+const enNavbarData = {
+  title: "Yajie Zhou",
+  Home: "Home",
+  publications: "Publications",
+  Research: "Research",
+  Jobs: "Experience",
+  Contact: "Contact",
+};
 
-    <!-- Fork this repository for free:  https://github.com/simamojtahedi -->
+const enHomePageData = {
+  name: "Yajie Zhou",
+  jobTitle: "Master of Surgery",
+  home_title: "About Me",
+  home_content: `<p>I am a master's student in Surgery at Nanchang University, with a strong interest in clinical research and evidence-based medicine. My current work focuses on surgical outcomes, perioperative management, and data-driven clinical decision-making.</p>
+    <h2 class='title'>Main Works</h2>
+    <p><strong>1. Clinical Data Analysis Using R Language</strong><br>
+    Cleaned and analyzed surgical patient data (1,500+ cases) using R, covering preoperative indicators, intraoperative variables, and postoperative outcomes. Built reproducible data pipelines for the research team, reducing processing time by ~40%.</p>
+    <p><strong>2. Team Leadership in Clinical Research</strong><br>
+    Led a 5-member student team in a perioperative complication study, coordinating task allocation, progress tracking, and manuscript drafting.</p>
+    <p><strong>3. Academic Portfolio Website</strong><br>
+    Independently built and maintained this academic website using GitHub Pages.</p>
+  `,
+};
 
-    <script src="./assets/scripts/default.js"></script>
-    <script>
-      $(function () {
-        $("#include_navbar").load("./utils/navbar.html");
-      });
-    </script>
+const enPublicationsPageData = {
+  type_one_title: "Publications",
+  type_one_items: [],
+  type_two_title: "Under Review",
+  type_two_items: [],
+  type_three_title: "Book Chapters",
+  type_three_items: [],
+  type_four_title: "",
+  type_four_items: [],
+};
 
-    <title id="page_title"></title>
-  </head>
-  <body>
-    <div id="include_navbar"></div>
+const enResearchPageData = {
+  title: "Research",
+  content: `<p>My research focuses on surgical clinical data analysis, perioperative complication prediction, and evidence-based surgery.</p>`,
+};
 
-    <div class="container pt-4" data-aos="fade-in" id="content_wrapper">
-      <h1 id="research_title" class="title"></h1>
-      <div id="research_data"></div>
-    </div>
-  </body>
-
-  <script src="./assets/scripts/scripts.js"></script>
-  <script src="./data/global.js"></script>
-  <script src="./lang/fa.js"></script>
-  <script src="./lang/en.js"></script>
-</html>
+const enJobsPageData = {
+  title: "Clinical Experience",
+  items: [
+    {
+      title: "Clinical Intern",
+      company: "First Affiliated Hospital of Nanchang University",
+      startData: "2023",
+      endDate: "2024",
+      location: "Nanchang",
+      abstract: "Participated in general surgery clinical work, preoperative assessment, and postoperative care.",
+      achievements: ["Assisted in 50+ surgeries", "Completed 100+ medical records"],
+    },
+    {
+      title: "Research Assistant",
+      company: "Nanchang University Surgical Lab",
+      startData: "2024",
+      endDate: "Present",
+      location: "Nanchang",
+      abstract: "Clinical data collection and analysis using R, leading a 5-member student team.",
+      achievements: ["Built clinical database", "Data analysis using R", "Team leadership"],
+    },
+  ],
+};
