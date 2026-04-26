@@ -7,7 +7,7 @@ const navbarLinks = {
 };
 
 const globalData = {
-  language: "en",        // 默认显示英文（en.js）
+  language: "fa",        // 默认显示英文（en.js）
   dir: "ltr",
   
   image: "./files/profile.jpg",
