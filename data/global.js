@@ -23,7 +23,7 @@ const globalData = {
   googleScholarTitle: "Google Scholar",
   googleScholar: "",
   linkedinTitle: "LinkedIn",
-  linkedin: "www.linkedin.com/in/yajie-zhou-784542407",
+  linkedin: "https://www.linkedin.com/in/yajie-zhou-784542407/",
   githubTitle: "GitHub",
   github: "https://github.com/zyjzzzzzzz",
   orcidTitle: "ORCID",
